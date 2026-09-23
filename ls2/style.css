@@ -1,0 +1,38 @@
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.head{
+    text-align: center;
+    padding: 20px;
+}
+.main-section{
+    text-align: center;
+    padding: 20px;
+    background-color: #aab2c7;
+    border-radius: 25px;
+}
+.main-section p{
+    color: gray;
+    font-size: 15px;
+}
+.main-section img{
+    border-radius: 25px;
+}
+.main-section li{
+    color: gray;
+}
+.main-section a{
+    color: gray;
+}
+.btn{
+    text-decoration: none;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px 16px;
+    font-weight: bold;
+}

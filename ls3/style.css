@@ -1,0 +1,19 @@
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.profile-card{
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}

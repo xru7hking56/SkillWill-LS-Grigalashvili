@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-card {
+    width: 300px;
+    border: 1px solid #7c7b7b;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+body{
+    background: black;
+    color: white;
+}
+.product-image{
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+}
+.product-price{
+    margin-bottom: 20px;
+}
+.product-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    border-radius: 12px;
+    text-decoration: none;
+}
