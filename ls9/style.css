@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-header{
+    text-align: center;
+}
+.main-section{
+    text-align: center;
+}
+.poster-img{
+    width: 500px;
+    height: 300px;
+    object-fit: scale-down;
+}
+.movie-des-div{
+    margin-top: 25px;
+}
+.iframe-div{
+    margin-top: 25px;
+}
+.iframe-soprano{
+    border-radius: 20px;
+}
