@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.header-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+header{
+    margin: 20px;
+    border-bottom: 1px solid #000000;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-right nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.button-login{
+    background-color: #04232e;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-login:hover{
+    background-color: #0a485e;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.main-div{
+    text-align: center;
+}
+.flex-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 5px 8px 24px rgba(0, 0, 0, 0.3);
+}
+.card img{
+    width: 250px;
+    height: 300px;
+}
+.card button{
+    background-color: #04232e;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.card:hover button{
+    background-color: #0a485e;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+.viewall-a{
+    font-size: 30px;
+    background-color: #04232e;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.viewall-a:hover{
+    font-size: 30px;
+    background-color: #0a485e;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+footer{
+    margin: 20px;
+    border-top: 1px solid #000000;
+}
+.footer-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-right nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
