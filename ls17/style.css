@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    padding: 24px;
+}
+
+.sidebar .logo {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sidebar-nav a {
+    background: #f4f4f4;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+.sidebar-nav a.active {
+    background: #000;
+    color: #fff;
+}
+
+.sidebar-nav a:hover {
+    background: #e2e2e2;
+}
+
+/* Main Content */
+.main-content {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Top Bar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Stats */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px)
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.card .button {
+    margin-top: 16px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.card .button:hover {
+    background: #202020;
+}
+
+/* Courses */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Breadcrumbs */
+.breadcrumbs{
+    color: blue;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+    .dashboard{
+        grid-template-columns: 1fr;
+    }
+    .main-content, .sidebar{
+        padding: 20px;
+    }
+    .stats, .courses{
+        grid-template-columns: 1fr;
+    }
+    .topbar{
+        display: none;
+    }
+    .card img{
+        height: 220px;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar-nav{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    .sidebar-nav > *{
+        flex-shrink: 0;
+    }
+}
